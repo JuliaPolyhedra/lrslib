@@ -65,6 +65,7 @@ void printGame(game * g);
 void setFwidth(game *g, int len);
 void initFwidth(game *g);
 void updateFwidth(game *g, int col, int pos, char *str);
+void resetNashSolver();  /* Call this function for every new game to be solved */
 
 
 extern long Debug_flag;
